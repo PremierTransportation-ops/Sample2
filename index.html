@@ -11,30 +11,19 @@
             height: 100%;
             overflow: hidden;
         }
-        .header {
-            position: relative;
-            z-index: 1;
-            background-color: white;
-            padding: 10px;
-            text-align: center;
-        }
         iframe {
             position: absolute;
-            top: 60px; /* Adjust this value based on the height of your header */
+            top: 0;
             left: 0;
             width: 100%;
-            height: calc(100% - 60px); /* Adjust this value based on the height of your header */
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1>Hello Premier Transportation</h1>
-        <p>Welcome to your embedded Power BI report!</p>
-    </div>
+    <h1>Hello Premier Transportation</h1>
+    <p>Welcome to your embedded Power BI report!</p>
     <iframe src="https://app.powerbi.com/reportEmbed?reportId=0ba1c555-2d51-4f83-995f-aee3bd2f769d&autoAuth=true&ctid=eb04f8db-826a-46fb-986c-1c4103a532dc" allowFullScreen="true"></iframe>
 </body>
 </html>
-
-
